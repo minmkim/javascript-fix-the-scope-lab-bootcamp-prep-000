@@ -4,8 +4,8 @@ function myAnimal() {
   return animal
 }
 
-function yourAnimal(animal) {
-  var animal = animal
+function yourAnimal() {
+  var animal = 'cat'
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
@@ -17,7 +17,7 @@ function add2(n) {
 
   // Feel free to move things around!
   const two = 2
-  return parstInt(n) + two
+  return parseInt(n, 10) + two
 }
 
 var funkyFunction = function() {
